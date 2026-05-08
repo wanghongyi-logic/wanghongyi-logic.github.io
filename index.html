@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Academic homepage for Hongyi Wang, graduate student in Logic at Peking University."
+    />
+    <title>Hongyi Wang | Logic</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Hongyi Wang homepage">
+        <span class="brand-mark">⊢</span>
+        <span>
+          <span class="brand-name" data-i18n="name">王鸿仪</span>
+          <span class="brand-field" data-i18n="brandField">Logic · PKU</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#research" data-i18n="navResearch">研究</a>
+        <a href="#writing" data-i18n="navWriting">成果</a>
+        <a href="#contact" data-i18n="navContact">联系</a>
+      </nav>
+
+      <button class="language-toggle" type="button" aria-live="polite">
+        <span class="toggle-thumb" aria-hidden="true"></span>
+        <span class="toggle-text">EN</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">北京大学 · 逻辑学</p>
+          <h1 data-i18n="heroTitle">王鸿仪</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            北京大学逻辑学研究生。关注形式证明、模型论语义与哲学逻辑之间的结构关系。
+          </p>
+          <div class="hero-actions" aria-label="Profile links">
+            <a class="button primary" href="#research" data-i18n="primaryAction">查看研究方向</a>
+            <a class="button secondary" href="#contact" data-i18n="secondaryAction">联系我</a>
+          </div>
+        </div>
+
+        <div class="logic-panel" aria-label="Logic themed visual">
+          <div class="formula-strip">
+            <span>□(p → q)</span>
+            <span>∀x(Px → Qx)</span>
+            <span>Γ ⊢ φ</span>
+          </div>
+          <svg class="proof-visual" viewBox="0 0 520 340" role="img" aria-labelledby="proof-title">
+            <title id="proof-title">A minimal proof tree and semantic table</title>
+            <defs>
+              <linearGradient id="line-gradient" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#0f766e" />
+                <stop offset="100%" stop-color="#32415f" />
+              </linearGradient>
+            </defs>
+            <g class="proof-lines">
+              <path d="M126 84 L210 152 L318 84" />
+              <path d="M210 152 L164 236" />
+              <path d="M210 152 L270 236" />
+              <path d="M318 84 L392 152" />
+              <path d="M392 152 L356 236" />
+              <path d="M392 152 L436 236" />
+            </g>
+            <g class="proof-node large">
+              <rect x="88" y="48" width="76" height="52" rx="8" />
+              <text x="126" y="80">Γ</text>
+            </g>
+            <g class="proof-node">
+              <rect x="284" y="48" width="68" height="52" rx="8" />
+              <text x="318" y="80">φ</text>
+            </g>
+            <g class="proof-node">
+              <rect x="174" y="126" width="72" height="52" rx="8" />
+              <text x="210" y="158">⊢</text>
+            </g>
+            <g class="proof-node">
+              <rect x="356" y="126" width="72" height="52" rx="8" />
+              <text x="392" y="158">◇</text>
+            </g>
+            <g class="proof-node small">
+              <rect x="130" y="214" width="68" height="48" rx="8" />
+              <text x="164" y="244">T</text>
+            </g>
+            <g class="proof-node small">
+              <rect x="236" y="214" width="68" height="48" rx="8" />
+              <text x="270" y="244">F</text>
+            </g>
+            <g class="proof-node small">
+              <rect x="322" y="214" width="68" height="48" rx="8" />
+              <text x="356" y="244">□</text>
+            </g>
+            <g class="proof-node small">
+              <rect x="402" y="214" width="68" height="48" rx="8" />
+              <text x="436" y="244">∴</text>
+            </g>
+            <text class="visual-caption" x="50%" y="314" text-anchor="middle">
+              soundness · consequence · necessity
+            </text>
+          </svg>
+        </div>
+      </section>
+
+      <section class="profile section-band">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="aboutEyebrow">简介</p>
+          <h2 data-i18n="aboutTitle">学术兴趣从形式系统出发，也回到清晰的论证。</h2>
+        </div>
+        <div class="profile-text">
+          <p data-i18n="aboutBody">
+            这里将放置个人简介、教育经历与研究计划。当前文本作为占位，用于预览页面气质与排版。
+          </p>
+          <dl class="quick-facts">
+            <div>
+              <dt data-i18n="factAffiliation">单位</dt>
+              <dd data-i18n="factAffiliationValue">北京大学哲学系 / 逻辑学方向</dd>
+            </div>
+            <div>
+              <dt data-i18n="factStatus">身份</dt>
+              <dd data-i18n="factStatusValue">研究生</dd>
+            </div>
+            <div>
+              <dt data-i18n="factFocus">关键词</dt>
+              <dd data-i18n="factFocusValue">逻辑学、形式证明、语义、哲学逻辑</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="research" class="section-band">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="researchEyebrow">Research</p>
+          <h2 data-i18n="researchTitle">研究方向</h2>
+        </div>
+        <div class="research-grid">
+          <article class="research-item">
+            <span class="item-symbol">⊨</span>
+            <h3 data-i18n="researchOneTitle">模型与语义</h3>
+            <p data-i18n="researchOneBody">占位：可能放置模型论、可能世界语义、可满足性与有效性等主题。</p>
+          </article>
+          <article class="research-item">
+            <span class="item-symbol">λ</span>
+            <h3 data-i18n="researchTwoTitle">证明与计算</h3>
+            <p data-i18n="researchTwoBody">占位：可能放置自然演绎、类型论、证明论语义或形式化验证兴趣。</p>
+          </article>
+          <article class="research-item">
+            <span class="item-symbol">◇</span>
+            <h3 data-i18n="researchThreeTitle">哲学逻辑</h3>
+            <p data-i18n="researchThreeBody">占位：可能放置模态逻辑、条件句、知识逻辑与规范逻辑等方向。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="writing" class="section-band writing-section">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="writingEyebrow">Writing</p>
+          <h2 data-i18n="writingTitle">论文、报告与笔记</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-year">2026</span>
+            <div>
+              <h3 data-i18n="paperOneTitle">论文标题占位</h3>
+              <p data-i18n="paperOneBody">摘要占位。可放置工作论文、课程论文、会议报告或预印本链接。</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-year">2025</span>
+            <div>
+              <h3 data-i18n="paperTwoTitle">读书报告 / 研究笔记占位</h3>
+              <p data-i18n="paperTwoBody">这里可以列出逻辑学、哲学、数学基础相关的笔记或讲稿。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section-band contact-section">
+        <div class="contact-copy">
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+          <h2 data-i18n="contactTitle">欢迎交流逻辑学、哲学与形式方法。</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" aria-disabled="true" data-i18n="cvLink">CV 占位</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footerName">© 2026 王鸿仪</span>
+      <span>Γ ⊢ φ</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
