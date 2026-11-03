@@ -81,7 +81,7 @@ main:focus { outline: none; }
   .site-header nav { display: grid; grid-template-columns: 1fr; width: 100%; gap: 0; font-size: 17px; margin-top: 18px; padding-top: 10px; border-top: 1px solid var(--rule); }
   .site-header nav a { padding: 10px 0; }
   .js .site-header nav:not(.is-open) { display: none; }
-  .js .menu-toggle { display: inline-flex; min-height: 44px; min-width: 76px; align-items: center; justify-content: center; gap: 10px; margin-left: auto; padding: 6px 0 6px 12px; border: 0; color: var(--text); background: transparent; font: 400 16px/1.5 var(--sans); cursor: pointer; }
+  .js .menu-toggle { display: inline-flex; min-height: 44px; min-width: 44px; width: 44px; align-items: center; justify-content: center; gap: 0; margin-left: auto; padding: 0; border: 0; color: var(--text); background: transparent; font: 400 16px/1.5 var(--sans); cursor: pointer; }
   .menu-toggle:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
   main,.about-page { padding-top: 36px; }
   h1 { font-size: 38px; margin-bottom: 27px; }

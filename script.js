@@ -20,6 +20,7 @@ const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.getElementById('primary-nav');
 function setMenu(open) {
   menuButton.setAttribute('aria-expanded', String(open));
+  menuButton.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
   navigation.classList.toggle('is-open', open);
 }
 menuButton.addEventListener('click', () => {
