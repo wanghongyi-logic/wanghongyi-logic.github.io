@@ -8,7 +8,9 @@ A minimal, responsive academic homepage for GitHub Pages. No build step or exter
 - `papers.html`, `talks.html`, `background.html`, `personal.html`: separate pages for each section.
 - `styles.css`: responsive typography and layout.
 - `script.js`: accessible skip-link focus. Navigation between sections uses separate HTML pages and works without JavaScript.
-- `assets/hongyi-wang-cv.pdf`: the current academic CV.
+- `assets/hongyi-wang-cv.pdf`: the current academic CV, including the homepage link.
+- `assets/hongyi-wang.jpg`: the supplied portrait; displayed with CSS cropping.
+- `assets/slides/`: the three original talk PDFs, renamed in English and linked from Talks.
 
 Run locally with `python3 -m http.server 8767`, then open `http://127.0.0.1:8767`.
 
@@ -16,7 +18,7 @@ Run locally with `python3 -m http.server 8767`, then open `http://127.0.0.1:8767
 
 Keep publication states explicit: accepted articles remain **Accepted** until publication; unfinished work remains **Manuscript in preparation**. Add manuscript downloads only when a public version is ready. The published AiML paper links to its EPTCS DOI.
 
-Use a real, approved personal photograph when one is available. The current page is complete without a portrait or placeholder image.
+The About page uses the user-supplied real photograph. Keep its identity and original pixels; cropping is controlled by CSS. About contains only the current affiliation, supervisor, research focus and portrait; papers, talks and background have their own pages.
 
 ## References for information structure
 
