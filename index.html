@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-site-version="2026-11-03-portrait-slides">
+<html lang="en" data-site-version="2026-11-03-menu">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +13,8 @@
   <meta property="og:url" content="https://wanghongyi-logic.github.io/">
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="styles.css?v=20261103-portrait-slides">
-  <script src="script.js?v=20261103-portrait-slides" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261103-menu">
+  <script src="script.js?v=20261103-menu" defer></script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"Hongyi Wang","url":"https://wanghongyi-logic.github.io/","email":"mailto:wanghongyi@stu.pku.edu.cn","affiliation":{"@type":"CollegeOrUniversity","name":"Peking University"},"knowsAbout":["Modal logic","Knowing value logic","Epistemic logic with assignment operators"]}
   </script>
@@ -24,13 +24,16 @@
   <div class="page">
     <header class="site-header">
       <a class="site-name" href="index.html">Hongyi Wang</a>
-      <nav aria-label="Primary navigation">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span>Menu</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path class="menu-open-icon" d="M4 6h16M4 12h16M4 18h16"/><path class="menu-close-icon" d="m5 5 14 14M19 5 5 19"/></svg>
+      </button>
+      <nav id="primary-nav" aria-label="Primary navigation">
           <a href="index.html" aria-current="page">About</a>
           <a href="papers.html">Papers</a>
           <a href="talks.html">Talks</a>
           <a href="background.html">Background</a>
           <a href="personal.html">Personal</a>
-          <a class="cv-link" href="assets/hongyi-wang-cv.pdf?v=20261103-portrait-slides" type="application/pdf" target="_blank" rel="noopener">CV (PDF)</a>
+          <a class="cv-link" href="assets/hongyi-wang-cv.pdf?v=20261103-menu" type="application/pdf" target="_blank" rel="noopener">CV (PDF)</a>
       </nav>
     </header>
     <main id="main" class="about-page" tabindex="-1" aria-label="About Hongyi Wang">
@@ -42,10 +45,7 @@
         <figure class="portrait"><img src="assets/hongyi-wang.jpg" width="720" height="1280" alt="Hongyi Wang" fetchpriority="high" decoding="async"></figure>
       </div>
     </main>
-    <footer class="site-footer">
-      <p>Department of Philosophy · Peking University</p>
-      <div class="footer-links"><a href="mailto:wanghongyi@stu.pku.edu.cn">Email</a><a href="https://github.com/wanghongyi-logic" target="_blank" rel="noopener">GitHub</a></div>
-    </footer>
+    <footer class="site-footer"><p class="footer-contact"><span class="footer-label">Email</span><a href="mailto:wanghongyi@stu.pku.edu.cn">wanghongyi@stu.pku.edu.cn</a></p></footer>
   </div>
 </body>
 </html>

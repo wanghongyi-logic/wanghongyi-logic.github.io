@@ -7,7 +7,7 @@ A minimal, responsive academic homepage for GitHub Pages. No build step or exter
 - `index.html`: biography and current research.
 - `papers.html`, `talks.html`, `background.html`, `personal.html`: separate pages for each section.
 - `styles.css`: responsive typography and layout.
-- `script.js`: accessible skip-link focus. Navigation between sections uses separate HTML pages and works without JavaScript.
+- `script.js`: accessible mobile menu and skip-link focus. Navigation between sections uses separate HTML pages. Without JavaScript, the mobile navigation remains visible.
 - `assets/hongyi-wang-cv.pdf`: the current academic CV, including the homepage link.
 - `assets/hongyi-wang.jpg`: the supplied portrait; displayed with CSS cropping.
 - `assets/slides/`: the three original talk PDFs, renamed in English and linked from Talks.
