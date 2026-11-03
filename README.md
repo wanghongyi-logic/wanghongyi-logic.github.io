@@ -4,9 +4,10 @@ A minimal, responsive academic homepage for GitHub Pages. No build step or exter
 
 ## Files
 
-- `index.html`: biography, papers, talks, academic background, and personal interests.
+- `index.html`: biography and current research.
+- `papers.html`, `talks.html`, `background.html`, `personal.html`: separate pages for each section.
 - `styles.css`: responsive typography and layout.
-- `script.js`: accessible in-page navigation.
+- `script.js`: accessible skip-link focus. Navigation between sections uses separate HTML pages and works without JavaScript.
 - `assets/hongyi-wang-cv.pdf`: the current academic CV.
 
 Run locally with `python3 -m http.server 8767`, then open `http://127.0.0.1:8767`.
