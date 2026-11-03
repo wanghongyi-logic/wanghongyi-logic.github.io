@@ -59,7 +59,7 @@ cite { font-style: normal; }
 .group-context { color: var(--muted); font-size: 17px; margin: 0 0 16px; }
 .personal-section p { font: 400 24px/1.65 var(--serif); }
 .site-footer { flex-shrink: 0; width: 100%; background: var(--background); padding: 22px 0 max(26px, env(safe-area-inset-bottom)); border-top: 1px solid var(--rule); }
-.footer-contact { display: flex; align-items: baseline; justify-content: center; flex-wrap: wrap; gap: 6px 14px; font: 400 17px/1.6 var(--serif); }
+.footer-contact { display: flex; align-items: baseline; justify-content: flex-end; flex-wrap: wrap; gap: 6px 14px; font: 400 17px/1.6 var(--serif); }
 .footer-label { color: var(--muted); font: 400 14px/1.6 var(--sans); }
 .skip-link { position: absolute; z-index: 10; top: 10px; left: 12px; padding: 8px 12px; background: white; transform: translateY(-180%); }
 .skip-link:focus { transform: translateY(0); }
