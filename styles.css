@@ -56,6 +56,7 @@ cite { font-style: normal; }
 .teaching h4 { font-weight: 400; }
 .teaching .background-entry + .background-entry { margin-top: 16px; }
 .teaching-affiliation { margin-top: 8px; font-size: 17px; }
+.nowrap { white-space: nowrap; }
 .awards { margin-top: 22px; }
 .awards .subheading { margin-bottom: 10px; }
 .awards p { font-size: 17px; line-height: 1.6; }
