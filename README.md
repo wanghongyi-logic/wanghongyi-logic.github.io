@@ -18,7 +18,7 @@ Run locally with `python3 -m http.server 8767`, then open `http://127.0.0.1:8767
 
 Keep publication states explicit: accepted articles remain **Accepted** until publication; unfinished work remains **Manuscript in preparation**. Add manuscript downloads only when a public version is ready. The published AiML paper links to its EPTCS DOI.
 
-The About page uses the user-supplied real photograph. Keep its identity and original pixels; cropping is controlled by CSS. About contains only the current affiliation, supervisor, research focus and portrait; papers, talks and background have their own pages.
+The About page uses the user-supplied real photograph. Keep its identity and original pixels; cropping is controlled by CSS. About contains the current affiliation, supervisor, research focus, a brief undergraduate-degree introduction and portrait; papers, talks and full background have their own pages. The contact footer stays fixed at the bottom of the viewport, in its own layout row. Long content scrolls within the main area so the footer never covers text.
 
 ## References for information structure
 
