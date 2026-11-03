@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-site-version="2026-11-03-final-layout">
+<html lang="en" data-site-version="2026-11-03-photo-viewport">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +13,9 @@
   <meta property="og:url" content="https://wanghongyi-logic.github.io/">
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="styles.css?v=20261103-final-right-email">
-  <script src="script.js?v=20261103-final-right-email" defer></script>
+  <link rel="preload" as="image" type="image/webp" href="assets/hongyi-wang-600.webp" imagesrcset="assets/hongyi-wang-300.webp 300w, assets/hongyi-wang-600.webp 600w" imagesizes="(max-width: 760px) 220px, (max-width: 1000px) 240px, 260px" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=20261103-photo-viewport">
+  <script src="script.js?v=20261103-photo-viewport" defer></script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"Hongyi Wang","url":"https://wanghongyi-logic.github.io/","email":"mailto:wanghongyi@stu.pku.edu.cn","affiliation":{"@type":"CollegeOrUniversity","name":"Peking University"},"knowsAbout":["Modal logic","Knowing value logic","Epistemic logic with assignment operators"]}
   </script>
@@ -23,16 +24,16 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="page">
     <header class="site-header">
-      <a class="site-name" href="index.html">Hongyi Wang</a>
+      <a class="site-name" href="index.html?v=20261103-photo-viewport">Hongyi Wang</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
         <span>Menu</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path class="menu-open-icon" d="M4 6h16M4 12h16M4 18h16"/><path class="menu-close-icon" d="m5 5 14 14M19 5 5 19"/></svg>
       </button>
       <nav id="primary-nav" aria-label="Primary navigation">
-          <a href="index.html" aria-current="page">About</a>
-          <a href="papers.html">Papers</a>
-          <a href="talks.html">Talks</a>
-          <a href="background.html">Background</a>
-          <a href="personal.html">Personal</a>
+          <a href="index.html?v=20261103-photo-viewport" aria-current="page">About</a>
+          <a href="papers.html?v=20261103-photo-viewport">Papers</a>
+          <a href="talks.html?v=20261103-photo-viewport">Talks</a>
+          <a href="background.html?v=20261103-photo-viewport">Background</a>
+          <a href="personal.html?v=20261103-photo-viewport">Personal</a>
           <a class="cv-link" href="assets/hongyi-wang-cv.pdf?v=20261103-final-right-email" type="application/pdf" target="_blank" rel="noopener">CV (PDF)</a>
       </nav>
     </header>
@@ -43,7 +44,10 @@
           <p>My research is in modal logic, with a particular focus on knowing value logic and epistemic logic with assignment operators.</p>
           <p>I received a B.A. in Philosophy (Philosophy of Science and Logic) and a B.Sc. in Mathematics and Applied Mathematics (Double Degree) from Peking University in June 2024.</p>
         </div>
-        <figure class="portrait"><img src="assets/hongyi-wang.jpg" width="720" height="1280" alt="Hongyi Wang" fetchpriority="high" decoding="async"></figure>
+        <figure class="portrait"><picture>
+          <source type="image/webp" srcset="assets/hongyi-wang-300.webp 300w, assets/hongyi-wang-600.webp 600w" sizes="(max-width: 760px) 220px, (max-width: 1000px) 240px, 260px">
+          <img src="assets/hongyi-wang-600.jpg" width="600" height="800" alt="Hongyi Wang" loading="eager" fetchpriority="high" decoding="async">
+        </picture></figure>
       </div>
     </main>
     <footer class="site-footer"><p class="footer-contact"><span class="footer-label">Email</span><a href="mailto:wanghongyi@stu.pku.edu.cn">wanghongyi@stu.pku.edu.cn</a></p></footer>
